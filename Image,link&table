@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Third Task (Image, List & Table)</h1>
+    </header>
+    <main>
+        <article>
+            <a href="https://m.facebook.com/" aria-label="Facebook">
+                <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Logo">
+            </a>
+            <p>This is a link to <a href="https://www.facebook.com/">Facebook</a></p>
+            <ul>
+                <li>Item 01</li>
+                <li>Item 02</li>
+            </ul>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Head 01</th>
+                        <th>Head 02</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Title 01</td>
+                        <td>Title 02</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <footer>
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
